@@ -12,3 +12,20 @@ example_text = "hello world"
 text_length = len(example_text)
 
 print(f"'{example_text}' is {text_length} characters long")
+
+# list exploration / experiment
+
+fruit_list = ['apple', 'banana', 'cherry', 'dragon fruit']
+
+for item in fruit_list:
+
+    print()
+
+    # print the whole word...
+    print("Fruit Name: ", item)
+
+    # print the first letter...
+    print("First letter", item[0])
+
+    # challenge = print the first TWO letters
+    print(f"First two letters {item[:2]}")
